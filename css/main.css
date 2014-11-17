@@ -266,13 +266,22 @@ FOOTER
 	#header_bottom ul {
 		display: block;
 	}
-	nav ul {
-		
-	}
 	nav li {
-		display: block;
 		float: center;
 	}
+
+	#header_bottom {
+		height: 200px;
+	}
+
+	#header_bottom h1 {
+		font-size: 1em;
+	}
+
+	#header_bottom ul {
+		font-size: 0.85em;
+	}
+
 }
 
 @media screen and (max-width: 1160px) {
@@ -282,5 +291,9 @@ FOOTER
 
 	#header_bottom ul {
 		font-size: 1em;
+	}
+
+	#header_post {
+		margin: 165px 0  183px 16%;
 	}
 }
