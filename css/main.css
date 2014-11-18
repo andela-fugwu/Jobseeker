@@ -146,9 +146,6 @@ nav a:hover {
 #header_bottom ul {
 	font-size: 1.5em;
 }
-.dot {
-	font-size: bold;
-}
 
 /**********************************
 SECTION
@@ -265,9 +262,6 @@ FOOTER
 @media screen and (max-width: 560px) {
 	#header_bottom ul {
 		display: block;
-	}
-	nav li {
-		float: center;
 	}
 
 	#header_bottom {
